@@ -1,0 +1,13 @@
+Package: WordPools
+Type: Package
+Title: Classical word pools used in studies of learning and memory
+Version: 1.0
+Date: 2012-11-26
+Authors@R: person(given = "Michael", family = "Friendly", role=c("aut", "cre"), email="friendly@yorku.ca")
+Author: Michael Friendly
+Maintainer: Michael Friendly <friendly@yorku.ca>
+Description: This package collects several classical word pools used
+	most often to provide lists of words in psychological
+	studies of learning and memory.  
+Suggests:
+License: GPL-2
