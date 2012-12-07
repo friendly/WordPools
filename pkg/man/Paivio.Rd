@@ -54,5 +54,17 @@ plot(density(Paivio$meaningfulness))
 plot(density(Paivio$frequency))
 rug(jitter(Paivio$frequency))
 
+# find ranges & 5 num summaries
+ranges <- as.data.frame(apply(Paivio[,-(1:2)], 2, function(x) range(na.omit(x))))
+rownames(ranges) <- c("min", "max")
+ranges
+
+P5num <- as.data.frame(apply(Paivio[,3:5], 2, fivenum))
+rownames(P5num) <- c("min", "Q1", "med", "Q3", "max")
+P5num
+
+
+
+
 }
 \keyword{datasets}
