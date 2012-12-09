@@ -39,9 +39,9 @@ is to allow sampling with replacement.
 \value{
 A data frame of the same shape as \code{data} containing the selected items
 }
-%\references{
-%%% ~put references to the literature/web site here ~
-%}
+\references{
+Friendly, M. Word list generator. \url{http://datavis.ca/online/paivio/}
+}
 \author{
 Michael Friendly
 }
@@ -55,8 +55,22 @@ Michael Friendly
 %%% ~~objects to See Also as \code{\link{help}}, ~~~
 %}
 \examples{
-	data(Paivio)
-	pickList(Paivio, nlists=2)
+data(Paivio)
+# no selection on any variables
+pickList(Paivio, nlists=2)
+
+# define ranges for low and high on imagery, concreteness, meaningfulness
+(low <- as.data.frame(apply(Paivio[,3:5], 2, fivenum))[c(1,3),])
+(high <- as.data.frame(apply(Paivio[,3:5], 2, fivenum))[c(3,5),])
+
+# select two lists of 10 low/high imagery items
+lowI <- pickList(Paivio, low[,"imagery", drop=FALSE], nitems=10, nl=2)
+highI <- pickList(Paivio, high[,"imagery", drop=FALSE], nitems=10, nl=2)
+
+#compare means
+colMeans(lowI[,c(4:8)])
+colMeans(highI[,c(4:8)])
+
 	
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

@@ -11,3 +11,6 @@ Description: This package collects several classical word pools used
 	studies of learning and memory.  
 Suggests:
 License: GPL-2
+LazyLoad: yes
+LazyData: yes
+
