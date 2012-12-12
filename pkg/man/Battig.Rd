@@ -54,5 +54,13 @@ Joelson, J. M. & Hermann, D. J., Properties of categories in semantic
 \examples{
 data(Battig)
 ## maybe str(Battig) ; plot(Battig) ...
+
+# select items from several categories
+cats <- c("fish", "bird", "flower", "tree")
+for (c in cats) {
+	cat("\nCategory:", c, "\n")	
+	print(pickList(subset(Battig, catname==c), nitems=5))
+}
+
 }
 \keyword{datasets}

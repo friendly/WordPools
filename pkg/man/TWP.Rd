@@ -47,5 +47,12 @@ Friendly, M., Franklin, P., Hoffman, D. & Rubin, D. The Toronto Word Pool,
 data(TWP)
 str(TWP)
 summary(TWP)
+
+# select low imagery, concreteness and frequency words
+R <- list(imagery=c(1,5), concreteness=c(1,4), frequency=c(0,30))
+pickList(TWP, R)
+
+
+
 }
 \keyword{datasets}

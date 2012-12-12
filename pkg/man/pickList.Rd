@@ -35,11 +35,13 @@ A logical value, indicating whether the sampling of items (rows) of \code{data}
 is to allow sampling with replacement.
 }
 }
-%\details{
-%%  ~~ If necessary, more details than the description above ~~
-%}
+\details{
+\code{\link[base]{sample}} will generate an error if fewer than \code{nitems * nlists}
+items are within the specified \code{ranges} and \code{replace=FALSE}.
+}
 \value{
 A data frame of the same shape as \code{data} containing the selected items
+prefixed by the \code{list} number.
 }
 \references{
 Friendly, M. Word list generator. \url{http://datavis.ca/online/paivio/}

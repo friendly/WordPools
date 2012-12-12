@@ -55,5 +55,14 @@ memory, \emph{American Journal of Psychology}, 1978, 91, 101-114.
 \examples{
 data(CatProp)
 ## maybe str(CatProp) ; plot(CatProp) ...
+
+summary(CatProp)
+
+# select some categories where the rated age of acquisition is between 2-4
+cats <- pickList(CatProp, list(rageoaq=c(2,4)))
+cats[,2:9]
+
+# pick some fruit
+pickList(subset(Battig, catname=="fruit"))
 }
 \keyword{datasets}
