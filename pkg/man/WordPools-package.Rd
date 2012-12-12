@@ -25,7 +25,17 @@ Version: \tab 1.0-1\cr
 Date: \tab 2012-12-07\cr
 License: \tab GPL-2\cr
 }
-% ~~ An overview of how to use the package, including the most important functions ~~
+At present, the package contains three main word pools:
+
+\code{\link{Paivio}} - the Paivio etal. (1968) word list of 925 nouns
+
+\code{\link{TWP}} - the Friendly etal. (1982) Toronto Word Pool of 1080 words in various grammatical classes
+
+\code{\link{Battig}} - the Battig & Montague (1969) Categorized Word Norms, containing 5231 words listed in 
+56 taxonomic categories.  Various measures on these categories are given in \code{\link{CatProp}}.
+
+In addition, the function \code{\link{pickList}} provides the ability to select items from such
+lists with restrictions on the ranges of the measured variables.
 }
 \author{
 Michael Friendly
