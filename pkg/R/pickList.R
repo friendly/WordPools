@@ -7,6 +7,9 @@ pickList <- function(data, ranges, nitems=10, nlists=1, replace=FALSE) {
 		vars <- sapply(data, is.numeric)
 		ranges <- as.data.frame(apply(data[,vars], 2, function(x) range(na.omit(x))))
 	}
+	# allow a list of min/max, rather than a data.frame
+	if (class(ranges)=='list') ranges <- as.data.frame(ranges)
+
 	names <- colnames(ranges)
 	OK <- rep(TRUE, nrow(data))
 	for (col in names) {

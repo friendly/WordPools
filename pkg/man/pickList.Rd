@@ -21,6 +21,8 @@ A data.frame, typically a word list like \code{\link{Paivio}} or \code{\link{TWP
 A data.frame of two rows, and with column names corresponding to a subset of the
 column names in \code{data}.  The two rows give the minimum and maximum
 values, respectively, of variables in \code{data}.
+Alternatively, you can supply a named list containing the minimum and maximum
+values for one or more variables in \code{data}.
 }
   \item{nitems}{
 Number of items per list
@@ -56,7 +58,7 @@ Michael Friendly
 %}
 \examples{
 data(Paivio)
-# no selection on any variables
+# 2 lists, no selection on any variables
 pickList(Paivio, nlists=2)
 
 # define ranges for low and high on imagery, concreteness, meaningfulness
@@ -71,6 +73,9 @@ highI <- pickList(Paivio, high[,"imagery", drop=FALSE], nitems=10, nl=2)
 colMeans(lowI[,c(4:8)])
 colMeans(highI[,c(4:8)])
 
+# using a list of ranges
+L <- list(imagery=c(1,5), concreteness=c(1,4))
+pickList(Paivio, L)
 	
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
