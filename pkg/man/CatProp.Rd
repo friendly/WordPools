@@ -54,9 +54,13 @@ memory, \emph{American Journal of Psychology}, 1978, 91, 101-114.
 %}
 \examples{
 data(CatProp)
-## maybe str(CatProp) ; plot(CatProp) ...
-
 summary(CatProp)
+plot(CatProp[,3:10])
+
+# try a biplot
+CP <- CatProp
+rownames(CP) <- CP$catname
+biplot(prcomp(na.omit(CP[,3:12]), scale=TRUE))
 
 # select some categories where the rated age of acquisition is between 2-4
 cats <- pickList(CatProp, list(rageoaq=c(2,4)))

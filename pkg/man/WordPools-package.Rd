@@ -45,7 +45,8 @@ Maintainer: Michael Friendly <friendly@yorku.ca>
 \references{
 Friendly, M. Word list generator. \url{http://datavis.ca/online/paivio/}
 
-See also \url{http://memory.psych.upenn.edu/Word_Pools} for other related word pools
+See also \url{http://memory.psych.upenn.edu/Word_Pools} 
+and \url{http://www.psych.rl.ac.uk/MRC_Psych_Db.html} for other related word pools
 
 }
 %~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
