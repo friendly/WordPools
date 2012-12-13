@@ -62,5 +62,7 @@ for (c in cats) {
 	print(pickList(subset(Battig, catname==c), nitems=5))
 }
 
+# or, using sapply():
+sapply(cats, function(c) pickList(subset(Battig, catname==c), nitems=5), simplify=FALSE)
 }
 \keyword{datasets}
