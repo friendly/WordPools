@@ -10,6 +10,7 @@ Description: This package collects several classical word pools used
 	most often to provide lists of words in psychological
 	studies of learning and memory.  
 Suggests:
+Depends: R (>= 2.10)
 License: GPL-2
 LazyLoad: yes
 LazyData: yes
