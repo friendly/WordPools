@@ -49,7 +49,7 @@ plot(Paivio[,c(3:5,9)])
 
 # density plots
 mydens <- function(data, var, ...) {
-	title = paste0( deparse(substitute(data)), ": ", var)
+	title = paste( deparse(substitute(data)), ": ", var, sep="")
 	plot(density(data[,var], na.rm=TRUE), main=title, ...) 
 	rug(jitter(data[,var]))
 }
