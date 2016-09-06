@@ -1,2 +1,5 @@
 .project
 .settings
+^.*\.Rproj$
+^\.Rproj\.user$
+README.md

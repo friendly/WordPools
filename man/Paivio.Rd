@@ -5,7 +5,7 @@
 Paivio, Yuille & Madigan Word Pool
 }
 \description{
-The Paivio, Yuille & Madigan word pool contains 925 nouns,
+The Paivio, Yuille & Madigan (1968) word pool contains 925 nouns,
 together with average ratings of these words on imagery,
 concreteness and meaningfulness, along with other 
 variables.
