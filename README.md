@@ -1,3 +1,4 @@
+[![](http://www.r-pkg.org/badges/version/WordPools)](https://cran.r-project.org/package=WordPools) [![](http://cranlogs.r-pkg.org/badges/grand-total/WordPools)](https://cran.r-project.org/package=WordPools)
 
 ## WordPools
 
