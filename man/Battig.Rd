@@ -37,12 +37,12 @@ In our original dataset, words were truncated at 18 characters, so some
 are incomplete.
 }
 \source{
-W.F Battig & W.E Montague (1968).
+Battig, W.F.  & Montague, W.E. (1968).
     Category norms for verbal items in 56 categories: A replication and extension of the Connecticut norms using 
     University of Maryland and Illinois students (Tech. Rep.)
     University of Colorado, Boulder, CO (1968)
 
-W.F Battig & W.E Montague (1969).
+Battig, W.F.  & Montague, W.E. (1969).
     Category norms for verbal items in 56 categories: A replication and extension of the Connecticut norms.
     \emph{Journal of Experimental Psychology}, 80 (1969), pp. 1-46
 }

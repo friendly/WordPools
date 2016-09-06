@@ -19,3 +19,6 @@ number of syllables, word frequency, etc.) and
 normative measures (imagery, concreteness, etc.)
 that can be used in experimental designs to vary
 and control such factors.
+
+A simple function, `pickList()` is provided for the task of selecting several random samples
+of words from a given word pool, with restrictions on the ranges of available variables.
