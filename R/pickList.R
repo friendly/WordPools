@@ -6,7 +6,7 @@
 #'
 #' @details \code{\link[base]{sample}} will generate an error if fewer than \code{nitems * nlists} items are 
 #' within the specified \code{ranges} and \code{replace=FALSE}.
-
+#'
 #' @param data A data.frame, typically a word list like \code{\link{Paivio}} or \code{\link{TWP}} 
 #' @param ranges A data.frame of two rows, and with column names corresponding to a subset of the column names 
 #'        in \code{data}.  The two rows give the minimum and maximum values, respectively, of variables in \code{data}. 

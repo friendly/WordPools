@@ -6,13 +6,14 @@ Date: 2016-09-06
 Authors@R: person(given = "Michael", family = "Friendly", role=c("aut", "cre"), email="friendly@yorku.ca")
 Author: Michael Friendly
 Maintainer: Michael Friendly <friendly@yorku.ca>
-Description: This package collects several classical word pools used
-	most often to provide lists of words in psychological
-	studies of learning and memory.  It provides a simple function, 'pickList' for
-	selecting random samples of words within given ranges.
+Description: This package collects several classical word pools used most often
+    to provide lists of words in psychological studies of learning and memory. It
+    provides a simple function, 'pickList' for selecting random samples of words
+    within given ranges.
 Suggests:
-Depends: R (>= 2.10)
+Depends:
+    R (>= 2.10)
 License: GPL-2
 LazyLoad: yes
 LazyData: yes
-
+RoxygenNote: 5.0.1
