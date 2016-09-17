@@ -69,6 +69,8 @@ Verbal Behavior}, 1973, 11, 119-131.
 data(TWP)
 str(TWP)
 summary(TWP)
+# quick view of distributions
+boxplot(scale(TWP[, 3:9]))
 
 # select low imagery, concreteness and frequency words
 R <- list(imagery=c(1,5), concreteness=c(1,4), frequency=c(0,30))

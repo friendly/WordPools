@@ -16,6 +16,9 @@
 #' @examples 
 #' plotDensity(Paivio, "imagery", anno=TRUE)
 #' plotDensity(Paivio, "imagery", anno=TRUE, adjust=1.5)
+#' plotDensity(Paivio, "syl")
+#' 
+#' plotDensity(TWP, "imagery", anno=TRUE)
 
 plotDensity <- function(data, var, adjust=1,  
           lwd=2, fill=rgb(1,0,0,0.2), 
@@ -50,12 +53,5 @@ plotDensity(Paivio, "imagery", fill="pink", adjust=2)
 plotDensity(Paivio, "imagery", fill="pink", adjust=.75)
 
 plotDensity(Paivio, "syl", fill="pink")
-
-
-library(ggplot2)
-ggplot(Paivio, aes(x=imagery)) +
-	geom_histogram(aes(y = ..density..), bins=20, color="gray", fill="pink") +
-	geom_density( size=1, color="red") +
-	geom_rug(alpha=0.5)
 
 }
