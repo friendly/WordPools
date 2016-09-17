@@ -35,5 +35,8 @@ Plots the distribution of a variable with a density estimate and a rug plot
 \examples{
 plotDensity(Paivio, "imagery", anno=TRUE)
 plotDensity(Paivio, "imagery", anno=TRUE, adjust=1.5)
+plotDensity(Paivio, "syl")
+
+plotDensity(TWP, "imagery", anno=TRUE)
 }
 

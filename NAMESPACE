@@ -2,3 +2,4 @@
 
 export(pickList)
 export(plotDensity)
+export(within)
