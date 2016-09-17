@@ -48,19 +48,14 @@ summary(Paivio)
 plot(Paivio[,c(3:5,9)])
 
 # density plots
-mydens <- function(data, var, ...) {
-	title = paste( deparse(substitute(data)), ": ", var, sep="")
-	plot(density(data[,var], na.rm=TRUE), main=title, ...) 
-	rug(jitter(data[,var]))
-}
 
-mydens(Paivio, "imagery")
-mydens(Paivio, "concreteness")
-mydens(Paivio, "meaningfulness")
-mydens(Paivio, "frequency")
-mydens(Paivio, "syl")
-mydens(Paivio, "letters")
-mydens(Paivio, "freerecall")
+plotDensity(Paivio, "imagery")
+plotDensity(Paivio, "concreteness")
+plotDensity(Paivio, "meaningfulness")
+plotDensity(Paivio, "frequency")
+plotDensity(Paivio, "syl")
+plotDensity(Paivio, "letters")
+plotDensity(Paivio, "freerecall")
 
 
 

@@ -72,6 +72,10 @@ summary(TWP)
 # quick view of distributions
 boxplot(scale(TWP[, 3:9]))
 
+plotDensity(TWP, "imagery")
+plotDensity(TWP, "concreteness")
+plotDensity(TWP, "frequency")
+
 # select low imagery, concreteness and frequency words
 R <- list(imagery=c(1,5), concreteness=c(1,4), frequency=c(0,30))
 pickList(TWP, R)
