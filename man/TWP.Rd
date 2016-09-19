@@ -26,7 +26,7 @@ This word pool has been used in hundreds of studies at Toronto and elsewhere.
     In a first-order approximation, the probability of
 		generating any string of letters is based on the frequencies of
 		occurrence of individual letters in the language.}
-    \item{\code{soa}}{a measure of second order approximation to English, bawsed on bigram frequencies.}
+    \item{\code{soa}}{a measure of second order approximation to English, based on bigram frequencies.}
     \item{\code{onr}}{Orthographic neighbor ratio, taken from
 		Landauer and Streeter (1973). It is the ratio of the frequency of
 		the word in Kucera and Francis (1967) count divided by the sum
@@ -80,7 +80,26 @@ plotDensity(TWP, "frequency")
 R <- list(imagery=c(1,5), concreteness=c(1,4), frequency=c(0,30))
 pickList(TWP, R)
 
-
+# dplyr now makes this much more flexible
+if (require(dplyr)) {
+  # select items within given ranges
+  selected <- TWP \%>\%	
+  	filter( canadian == 0) \%>\%              # remove Canadian spellings
+  	filter( imagery <= 5, concreteness <= 4, frequency <= 30) \%>\%
+  	select(word, imagery:frequency )
+  	
+  str(selected)
+  
+  # get random samples of selected items
+  nitems <- 5
+  nlists <- 2
+  lists <- selected \%>\%
+  	sample_n( nitems*nlists, replace=FALSE) \%>\%
+  	mutate(list = rep(1:nlists, each=nitems))
+  
+  str(lists)
+  lists
+}
 
 }
 \keyword{datasets}
