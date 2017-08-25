@@ -40,7 +40,11 @@ meaningfulness, and frequency. \emph{Memory & Cognition}, 6, 379-390.
 
 \references{
 Kucera and Francis, W.N. (1967). 
-\emph{Computational Analysis of Present-Day American English}. Providence: Brown University Press. 
+\emph{Computational Analysis of Present-Day American English}. Providence: Brown University Press.
+
+Rubin, D. C. & Friendly, M. (1986).
+Predicting which words get recalled: Measures of free recall, availability, goodness, emotionality, and pronunciability for 925 nouns.
+\emph{Memory and Cognition}, 14, 79-94.
 }
 \examples{
 data(Paivio)

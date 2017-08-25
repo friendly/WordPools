@@ -58,6 +58,11 @@ Friendly, M., Franklin, P., Hoffman, D. & Rubin, D. The Toronto Word Pool,
 
 Friendly, M. (2006) Word list generator. \url{http://datavis.ca/online/paivio/}
 
+Rubin, D. C. & Friendly, M. (1986).
+Predicting which words get recalled: Measures of free recall, availability, goodness, emotionality, and pronunciability for 925 nouns.
+\emph{Memory and Cognition}, 14, 79-94.
+
+
 See also \url{http://memory.psych.upenn.edu/Word_Pools} 
 and \url{http://www.psych.rl.ac.uk/MRC_Psych_Db.html} for other related word pools
 
