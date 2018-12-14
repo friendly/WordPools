@@ -2,4 +2,11 @@
 
 export(pickList)
 export(plotDensity)
-export(within)
+importFrom(grDevices,rgb)
+importFrom(graphics,par)
+importFrom(graphics,plot)
+importFrom(graphics,polygon)
+importFrom(graphics,rug)
+importFrom(graphics,text)
+importFrom(stats,density)
+importFrom(stats,na.omit)

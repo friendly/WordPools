@@ -23,6 +23,7 @@
 #' @author Michael Friendly
 #' @references A related word list generator: Friendly, M. Word list generator. \url{http://datavis.ca/online/paivio/}
 #' @export
+#' @importFrom stats na.omit
 #' @seealso \code{\link[base]{sample}}
 #' @keywords datagen
 #' @examples
