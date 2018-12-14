@@ -17,10 +17,9 @@ within(x, a, b)
 A logical vector of the same length as \code{x}
 }
 \description{
-Select observations within a given range
+This function masks `base::within` and so is no longer exported. Eventually it will be removed.
 }
 \examples{
-within(1:10, 2, 5)
+WordPools:::within(1:10, 2, 5)
 
 }
-
