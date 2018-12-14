@@ -3,7 +3,7 @@
 \alias{WordPools}
 \docType{package}
 \title{
-Classical word pools used in studies of learning and memory
+Classical Word Pools Used in Studies of Learning and Memory
 }
 \description{
 This package collects several classical word pools used
@@ -64,7 +64,7 @@ Predicting which words get recalled: Measures of free recall, availability, good
 
 
 See also \url{http://memory.psych.upenn.edu/Word_Pools} 
-and \url{http://www.psych.rl.ac.uk/MRC_Psych_Db.html} for other related word pools
+for other related word pools
 
 }
 %~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~

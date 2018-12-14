@@ -3,7 +3,7 @@
 
 ## WordPools
 
-**Classical word pools used in studies of learning and memory**
+**Classical Word Pools Used in Studies of Learning and Memory**
 
 Version: `1.1-1`
 
