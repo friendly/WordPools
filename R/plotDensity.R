@@ -30,7 +30,7 @@ plotDensity <- function(data, var, adjust=1,
 {
 	d <- density(data[,var], na.rm=TRUE, adjust=adjust)
 
-	if (is.null(main)) main < paste( deparse(substitute(data)), ": ", var, sep="")
+	if (is.null(main)) main <- paste( deparse(substitute(data)), ": ", var, sep="")
 	if (is.null(xlab)) xlab <- var
 
 	plot(d, main=main, lwd=lwd, xlab=xlab, ...)
@@ -44,7 +44,7 @@ plotDensity <- function(data, var, adjust=1,
 		xmin <- usr[1]
 		ymax <- usr[4]
 		text(xmin, .9*ymax, 
-					paste0("N = ", N, "\n", "bw = ", d$bw),
+					paste0("N = ", N, "\n", "bw = ", bw),
 					pos = 4, col="gray50")
 	}
 	invisible(d)
