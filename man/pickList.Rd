@@ -57,14 +57,13 @@ colMeans(highI[,c(4:8)])
 L <- list(imagery=c(1,5), concreteness=c(1,4))
 pickList(Paivio, L)
 }
-\author{
-Michael Friendly
-}
 \references{
 A related word list generator: Friendly, M. Word list generator. \url{http://datavis.ca/online/paivio/}
 }
 \seealso{
 \code{\link[base]{sample}}
 }
+\author{
+Michael Friendly
+}
 \keyword{datagen}
-
