@@ -13,6 +13,9 @@
 #' @param ... Other arguments passed to \code{\link[stats]{plot.density}}
 #' @return Returns the result of \code{\link[stats]{density}}
 #' @export
+#' @importFrom graphics par plot polygon rug text
+#' @importFrom stats density
+#' @importFrom grDevices rgb
 #' @examples 
 #' plotDensity(Paivio, "imagery", anno=TRUE)
 #' plotDensity(Paivio, "imagery", anno=TRUE, adjust=1.5)

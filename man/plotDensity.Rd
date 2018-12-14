@@ -39,4 +39,3 @@ plotDensity(Paivio, "syl")
 
 plotDensity(TWP, "imagery", anno=TRUE)
 }
-
