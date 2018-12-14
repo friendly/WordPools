@@ -1,6 +1,6 @@
 ## Test environments
 * local Win 64 install, R 3.4.4, R Studio
-* win-builder using R version 3.5.1 (2018-07-02)
+* win-builder R Under development (unstable) (2018-12-13 r75848)
 
 ## R CMD check results
 
