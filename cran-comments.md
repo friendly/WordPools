@@ -4,11 +4,13 @@
 
 ## R CMD check results
 
-
+No NOTES, WARNINGS or ERRORS
 
 ### Version 1.1-1
 
-* 
+* A minor update to the package to conform with CRAN standards
+* exports `plotDensity`
+* un-exports `within`
 
 ## Reverse dependencies
 
