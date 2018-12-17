@@ -43,7 +43,7 @@ Paivio word pool is provided at Friendly (2006)
 
 Paivio, A., Yuille, J.C. & Madigan S. Concreteness, imagery and
 meaningfulness for 925 nouns. (1968)  *Journal of Experimental Psychology*,
-Monograph Supplement*, **76**, No.1, pt.2.
+Monograph Supplement, **76**, No.1, pt.2.
 
 Battig, W.F. & Montague, W.E. (1969).
     Category norms for verbal items in 56 categories: A replication and extension of the Connecticut norms. *Journal of Experimental Psychology*, 80 (1969), pp. 1-46
