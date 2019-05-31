@@ -5,7 +5,7 @@
 
 **Classical Word Pools Used in Studies of Learning and Memory**
 
-Version: `1.1-1`
+Version: `1.1-2`
 
 This package collects several classical word pools used
 most often to provide lists of words in psychological
@@ -20,7 +20,10 @@ and control such factors.
 
 One typical use is to design an experiment where stimulus words vary systematically
 in one or more variables across conditions, but other variables are controlled
-by random selection.  
+by random selection.
+
+Other uses are to examine the factor structure of relations among these measures of
+word properties.
 
 
 * Toronto Word Pool (`TWP`) - from Friendly et al. (1982), contains 1080 words in various grammatical classes (nouns, adjectives, and verbs), taken originally from the Thorndike-Lorge (1944) norms)
@@ -40,7 +43,7 @@ Paivio word pool is provided at Friendly (2006)
 [Paivio Word list generator](http://datavis.ca/online/paivio/).~~
 
 A shiny app for randomly selecting lists of words from the
-Paivio word pool is provided at Friendly & dubins (2019)
+Paivio word pool is provided at Friendly & Dubins (2019)
 [Paivio Word list generator](http://euclid.psych.yorku.ca/shiny/Paivio).
 
 
@@ -62,6 +65,9 @@ Battig, W.F. & Montague, W.E. (1969).
     Category norms for verbal items in 56 categories: A replication and extension of the Connecticut norms. *Journal of Experimental Psychology*, 80 (1969), pp. 1-46
 
 Friendly, M. (2006) [Paivio Word list generator](http://datavis.ca/online/paivio/)
+
+Friendly, M. & Dubins, M (2019) [Paivio Word list generator](http://euclid.psych.yorku.ca/shiny/Paivio), Online application.
+
 
 Friendly, M., Franklin, P., Hoffman, D. & Rubin, D. The Toronto Word Pool,
 *Behavior Research Methods and Instrumentation*, 1982, 14(4), 375-399.

@@ -1,10 +1,12 @@
 Package: WordPools
 Type: Package
 Title: Classical Word Pools Used in Studies of Learning and Memory
-Version: 1.1-1
-Date: 2018-12-14
-Authors@R: person(given = "Michael", family = "Friendly", role=c("aut", "cre"), 
-    email="friendly@yorku.ca", comment=c(ORCID="0000-0002-3237-0941"))
+Version: 1.1-2
+Date: 2019-05-31
+Authors@R: c(person(given = "Michael", family = "Friendly", role=c("aut", "cre"), email="friendly@yorku.ca", 
+            comment=c(ORCID="0000-0002-3237-0941")),
+            person(given = "Matthew", family="Dubins", role="ctb")
+            )
 Maintainer: Michael Friendly <friendly@yorku.ca>
 Description: Collects several classical word pools used most often
     to provide lists of words in psychological studies of learning and memory. It
