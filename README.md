@@ -35,9 +35,14 @@ category norms published by Joelson and Hermann (1978)
 A simple function, `pickList()` is provided for the task of selecting several random samples
 of words from a given word pool, with restrictions on the ranges of available variables.
 
-A legacy web app (no longer maintained) for randomly selecting lists of words from the
+~~A legacy web app (no longer maintained) for randomly selecting lists of words from the
 Paivio word pool is provided at Friendly (2006)
-[Paivio Word list generator](http://datavis.ca/online/paivio/).
+[Paivio Word list generator](http://datavis.ca/online/paivio/).~~
+
+A shiny app for randomly selecting lists of words from the
+Paivio word pool is provided at Friendly & dubins (2019)
+[Paivio Word list generator](http://euclid.psych.yorku.ca/shiny/Paivio).
+
 
 ### Installation
 
