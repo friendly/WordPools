@@ -69,9 +69,9 @@ Battig, W.F. & Montague, W.E. (1969).
 
 Friendly, M. (2006) [Paivio Word list generator](http://datavis.ca/online/paivio/)
 
-Friendly, M. & Dubins, M (2019a) [Paivio Word list generator](http://euclid.psych.yorku.ca/shiny/Paivio), Online application.
+Friendly, M. & Dubins, M. (2019a) [Paivio Word list generator](http://euclid.psych.yorku.ca/shiny/Paivio), Online application.
 
-Friendly, M. & Dubins, M (2019b) [Toronto Word Pool list generator](http://euclid.psych.yorku.ca/shiny/TWP), Online application.
+Friendly, M. & Dubins, M. (2019b) [Toronto Word Pool list generator](http://euclid.psych.yorku.ca/shiny/TWP), Online application.
 
 
 Friendly, M., Franklin, P., Hoffman, D. & Rubin, D. The Toronto Word Pool,
