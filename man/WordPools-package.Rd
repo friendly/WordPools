@@ -18,14 +18,8 @@ normative measures (imagery, concreteness, etc.)
 that can be used in experimental designs to vary
 and control such factors.
 }
+
 \details{
-\tabular{ll}{
-Package: \tab WordPools\cr
-Type: \tab Package\cr
-Version: \tab 1.1-1\cr
-Date: \tab 2018-12-14\cr
-License: \tab GPL-2\cr
-}
 At present, the package contains three main word pools:
 
 \code{\link{Paivio}} - the Paivio etal. (1968) word list of 925 nouns
@@ -38,6 +32,7 @@ At present, the package contains three main word pools:
 In addition, the function \code{\link{pickList}} provides the ability to select items from such
 lists with restrictions on the ranges of the measured variables.  
 }
+
 \author{
 Michael Friendly
 

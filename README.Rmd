@@ -23,7 +23,7 @@ library(WordPools)
 [![DOI](https://zenodo.org/badge/14204994.svg)](https://zenodo.org/badge/latestdoi/14204994)
 [![](http://www.r-pkg.org/badges/version/WordPools)](https://cran.r-project.org/package=WordPools) 
 [![](http://cranlogs.r-pkg.org/badges/grand-total/WordPools)](https://cran.r-project.org/package=WordPools)
-[![Rdoc](http://www.rdocumentation.org/badges/version/WordPools)](https://rdrr.io/github/friendly/WordPools/man/WordPools-package.html) 
+[![](https://img.shields.io/badge/pkgdown%20site-blue)](https://friendly.github.io/WordPools)
 <!-- badges: end -->
 
 ## WordPools <img src="man/figures/logo.png" style="float:right; height:200px;" />
