@@ -3,7 +3,7 @@
 [![](http://cranlogs.r-pkg.org/badges/grand-total/WordPools)](https://cran.r-project.org/package=WordPools)
 [![Rdoc](http://www.rdocumentation.org/badges/version/WordPools)](http://www.rdocumentation.org/packages/WordPools) 
 
-## WordPools
+## WordPools <img src="man/figures/logo.png" style="float:right; height:200px;" />
 
 **Classical Word Pools Used in Studies of Learning and Memory**
 
@@ -69,16 +69,16 @@ Monograph Supplement, **76**, No.1, pt.2.
 Battig, W.F. & Montague, W.E. (1969).
     Category norms for verbal items in 56 categories: A replication and extension of the Connecticut norms. *Journal of Experimental Psychology*, 80 (1969), pp. 1-46
 
-Friendly, M. (2006) [Paivio Word list generator](http://datavis.ca/online/paivio/)
+Friendly, M. (2006) [Paivio Word list generator](https://datavis.ca/online/paivio/)
 
-Friendly, M. & Dubins, M. (2019a) [Paivio Word list generator](http://euclid.psych.yorku.ca/shiny/Paivio), Online application.
+Friendly, M. & Dubins, M. (2019a) [Paivio Word list generator](https://euclid.psych.yorku.ca/shiny/Paivio), Online application.
 
-Friendly, M. & Dubins, M. (2019b) [Toronto Word Pool list generator](http://euclid.psych.yorku.ca/shiny/TWP), Online application.
+Friendly, M. & Dubins, M. (2019b) [Toronto Word Pool list generator](https://euclid.psych.yorku.ca/shiny/TWP), Online application.
 
 
 Friendly, M., Franklin, P., Hoffman, D. & Rubin, D. The Toronto Word Pool,
 *Behavior Research Methods and Instrumentation*, 1982, 14(4), 375-399.
-[TWP paper PDF](http://datavis.ca/papers/twp.pdf)
+[TWP paper PDF](https://datavis.ca/papers/twp.pdf)
 
 
 
