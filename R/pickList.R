@@ -24,6 +24,7 @@
 #' @references A related word list generator: Friendly, M. Word list generator. \url{http://datavis.ca/online/paivio/}
 #' @export
 #' @importFrom stats na.omit
+#' @importFrom methods is
 #' @seealso \code{\link[base]{sample}}
 #' @keywords datagen
 #' @examples
@@ -60,7 +61,7 @@ pickList <- function(data, ranges, nitems=10, nlists=1, replace=FALSE) {
 		ranges <- as.data.frame(apply(data[,vars], 2, function(x) range(na.omit(x))))
 	}
 	# allow a list of min/max, rather than a data.frame
-	if (class(ranges)=='list') ranges <- as.data.frame(ranges)
+	if (is(ranges, 'list')) ranges <- as.data.frame(ranges)
 
 	names <- colnames(ranges)
 	OK <- rep(TRUE, nrow(data))

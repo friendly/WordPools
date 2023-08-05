@@ -4,8 +4,17 @@
 \alias{plotDensity}
 \title{Enhanced density plot for WordPools}
 \usage{
-plotDensity(data, var, adjust = 1, lwd = 2, fill = rgb(1, 0, 0, 0.2),
-  xlab = NULL, main = NULL, anno = FALSE, ...)
+plotDensity(
+  data,
+  var,
+  adjust = 1,
+  lwd = 2,
+  fill = rgb(1, 0, 0, 0.2),
+  xlab = NULL,
+  main = NULL,
+  anno = FALSE,
+  ...
+)
 }
 \arguments{
 \item{data}{A data.frame}
