@@ -1,18 +1,19 @@
 ## Test environments
-* local Win 64 install, R 3.4.4, R Studio
-* win-builder R Under development (unstable) (2018-12-13 r75848)
+* local Windows 10 install, R version 4.2.3 (2023-03-15 ucrt)
+* win-builder R Under development (unstable) (2023-08-04 r84865 ucrt)
 
 ## R CMD check results
 
 No NOTES, WARNINGS or ERRORS
 
-### Version 1.1-1
+### Version 1.2.0
 
-* A minor update to the package to conform with CRAN standards
-* exports `plotDensity`
-* un-exports `within`
+This is a minor update, largely to assure adherence with current CRAN policies and update examples
 
 ## Reverse dependencies
 
 There are no reverse dependencies.
+
+> devtools::revdep()
+character(0)
 

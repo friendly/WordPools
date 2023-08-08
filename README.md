@@ -10,7 +10,7 @@
 
 ## WordPools <img src="man/figures/logo.png" style="float:right; height:200px;" />
 
-**Classical Word Pools Used in Studies of Learning and Memory**
+**Word Pools Used in Studies of Learning and Memory**
 
 Version: `1.2.0`
 

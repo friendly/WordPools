@@ -3,7 +3,7 @@
 \alias{WordPools}
 \docType{package}
 \title{
-Classical Word Pools Used in Studies of Learning and Memory
+Word Pools Used in Studies of Learning and Memory
 }
 \description{
 This package collects several classical word pools used

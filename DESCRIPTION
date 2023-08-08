@@ -1,6 +1,6 @@
 Package: WordPools
 Type: Package
-Title: Classical Word Pools Used in Studies of Learning and Memory
+Title: Word Pools Used in Studies of Learning and Memory
 Version: 1.2.0
 Date: 2023-08-05
 Authors@R: c(person(given = "Michael", family = "Friendly", role=c("aut", "cre"), email="friendly@yorku.ca", 
