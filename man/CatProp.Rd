@@ -13,7 +13,7 @@ category norms published by Joelson and Hermann (1978).
 A data frame with 56 observations on the following 24 variables.
   \describe{
     \item{\code{catnum}}{Category number, a numeric variable}
-    \item{\code{catname}}{Category name, a character variab}
+    \item{\code{catname}}{Category name, a character variable}
     \item{\code{rnatrl}}{Rated naturalness 1..7, a numeric variable}
     \item{\code{rfamil}}{Rated familiarity 1..7, a numeric variable}
     \item{\code{rmeang}}{Rated meaningfulness 1..7 (Hunt & Hodge, 1971), a numeric variable}
