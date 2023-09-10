@@ -89,14 +89,14 @@ Install the current released version from CRAN:
 #### Using `pickList()
 
 Select two lists of items of 5 items each from the Paivio pool:
-```{r}
+```{r picklist1}
 set.seed(42)     # for reproducibility
 pickList(Paivio, nitems=5, nlists=2)
 ```
 
 Using a list of ranges for imagery and concreteness:
 
-```{r}
+```{r picklist2}
 L <- list(imagery=c(1,5), 
           concreteness=c(1,4))
 pickList(Paivio, ranges =L, nitems=4)
@@ -126,6 +126,7 @@ colMeans(highI[,c(4:8)])
 
 The `dplyr` package makes it easy to select items meeting arbitrary criteria.  Here we `filter()` on
 ranges for three variables in the `TWP` to get a reduced pool:
+
 ```{r}
 library(dplyr)
 selected <- TWP |>	
@@ -136,6 +137,7 @@ str(selected)
 ```
 
 Then, draw two random lists:
+
 ```{r}
   nitems <- 5
   nlists <- 2
