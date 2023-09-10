@@ -6,7 +6,8 @@
 #' @param var  Name of the variable to be plotted
 #' @param adjust Adjustment factor for the bandwidth of the density estimate
 #' @param lwd line width
-#' @param fill Color to fill the area under the density estimate
+#' @param fill Color to fill the area under the density estimate. A color specification that can include an alpha transparency value.
+#'             The default is a light red, using \code{rgb(1, 0, 0, 0.2)}.
 #' @param xlab Label for the variable
 #' @param main Title for plot
 #' @param anno If \code{TRUE}
