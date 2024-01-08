@@ -20,5 +20,7 @@ License: GPL-2
 LazyLoad: yes
 LazyData: yes
 RoxygenNote: 7.2.3
+URL: https://friendly.github.io/WordPools/, https://github.com/friendly/WordPools
+BugReports: https://github.com/friendly/WordPools/issues
 Encoding: UTF-8
 Language: en-US
